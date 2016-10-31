@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>Test page for savage-image</h1>
+    <savage-image src="counties.svg"></savage-image>
+    <savage-image src=""></savage-image>
+    <script src="savage-image.js"></script>
+    <script>
+document.querySelector("savage-image").addEventListener("load", e => console.log(e));
+    </script>
+  </body>
+</html>

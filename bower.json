@@ -1,0 +1,17 @@
+{
+  "name": "component-savage-image",
+  "version": "0.0.1",
+  "homepage": "https://github.com/seattletimes/component-savage-image",
+  "authors": [
+    "The Seattle Times"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ]
+}

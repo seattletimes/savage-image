@@ -47,6 +47,7 @@ proto.loadImage = function() {
     if (err) return;
     self.innerHTML = response;
     self.readyState = 4;
+    self.complete = true;
     var event = document.createEvent("CustomEvent");
     event.initCustomEvent("load", true, false, null);
     self.dispatchEvent(event);
